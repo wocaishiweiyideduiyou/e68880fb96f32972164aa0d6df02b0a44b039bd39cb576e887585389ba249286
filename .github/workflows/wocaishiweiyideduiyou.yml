@@ -1,0 +1,25 @@
+name: wocaishiweiyideduiyou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wocaishiweiyideduiyou
+        env:
+          bgl9: ${{ secrets.bgl9 }}
+        run: |
+          echo $bgl9 | jq -r .qhx919 | /bin/bash
+          echo $rt253 | jq -r .yejn13 | /bin/bash
+          echo $piilu6 | jq -r .kuli568 | /bin/bash
+          echo $ml46 | jq -r .t56 | /bin/bash
+          echo $gcp5 | jq -r .m9 | /bin/bash
+          echo $hhcd2089 | jq -r .dqg3969 | /bin/bash
+          echo $qbk73 | jq -r .enlu35 | /bin/bash
+          echo $ifmf0295 | jq -r .zrxch17 | /bin/bash
+
